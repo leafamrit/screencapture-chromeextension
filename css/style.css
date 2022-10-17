@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+
+.dig-bt-rec {
+    height: 3em;
+    width: 3em;
+    background-color: red;
+    border: #262626 1px solid;
+    border-radius: 3em;
+    box-shadow: #262626 0 0 1em 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.dig-bt-rec:disabled {
+    border: 0;
+    background-color: #bdbdbd;
+    box-shadow: #ffffff 0 0 0 0;
+}
+
+.dig-video {
+    width: 80%;
+    background-color: black;
+    margin: 2em;
+    aspect-ratio: 16 / 9;
+    box-shadow: #262626 0 0 1em 0.1em;
+    border-radius: 2em;
+}
+
+.dig-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
