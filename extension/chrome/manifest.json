@@ -1,0 +1,17 @@
+{
+  "name": "In a Giffy",
+  "description": "Product Demos in a jiffy!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click Me!",
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "storage",
+    "scripting"
+  ]
+}
